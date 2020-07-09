@@ -1,0 +1,10 @@
+mkdir <new_dir>
+cd <new_dir>
+git init
+git remote add origin <github path>
+# pull the files first
+git pull origin master
+# make the files ready
+git add <files> (or) use git gui to add and commit
+# push the files to the github
+git push origin master
