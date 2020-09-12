@@ -9,6 +9,8 @@
 #define INCLUDE_STACK_H_
 
 #include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
 
 typedef struct stack_t {
 	void *base;

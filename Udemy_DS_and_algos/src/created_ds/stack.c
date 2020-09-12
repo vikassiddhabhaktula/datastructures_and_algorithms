@@ -6,9 +6,6 @@
  */
 
 #include "stack.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 #define DEBUG
 
@@ -37,6 +34,7 @@ int push(stack *s, void *data, int size) {
 	}
 	memcpy((char *)s->top, (char *)data, size);
 	s->top = (char *)s->top + size;
+	// printf("TOP: %p\n", s->top);
 	return 0;
 }
 
@@ -45,7 +43,9 @@ int pop(stack *s, void *data, int size) {
 	if (((unsigned long)s->top - size) < (unsigned long)s->base) return -2;
 	int i=0;
 	char *ptr;
+	//printf("TOP BE: %p\n", s->top);
 	s->top = (char *)s->top - size;
+	//printf("TOP AF: %p\n", s->top);
 	memcpy((char *)data, (char *)s->top, size);
 	// load the popped location with known garbage
 	ptr = s->top;
@@ -55,6 +55,9 @@ int pop(stack *s, void *data, int size) {
 	return 0;
 }
 
+/*
+ * 	printing is not generic.
+ */
 void print_stack(stack *s) {
 #if defined(DEBUG)
 	if (is_stack_empty(s))	{

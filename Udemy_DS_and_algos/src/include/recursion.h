@@ -11,6 +11,7 @@
 #include <stdio.h>
 
 void print_int_reverse(int num);
+void print_int_inorder(int num);
 void print_string_reverse(char *str);
 void print_generic_reverse(void *data, int (*cond)(void *), void (*printer)(void *));
 

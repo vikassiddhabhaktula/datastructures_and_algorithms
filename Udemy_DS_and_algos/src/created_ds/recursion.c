@@ -14,6 +14,13 @@ void print_int_reverse(int num) {
 	}
 }
 
+void print_int_inorder(int num) {
+	if (num != 0) {
+		print_int_inorder(num/10);
+		printf("%d", num%10);
+	}
+}
+
 void print_string_reverse(char *str) {
 	if (*str != '\0') {
 		print_string_reverse(str + 1);
