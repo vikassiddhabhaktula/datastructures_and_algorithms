@@ -9,7 +9,7 @@
 #include "common.h"
 #include "course1_week1.h"
 
-static void print_file_name() {
+void print_file_name() {
 	printf("%s\n", __FILE__);
 }
 

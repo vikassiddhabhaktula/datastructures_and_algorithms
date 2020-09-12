@@ -8,7 +8,7 @@
 #ifndef INCLUDE_DIR_COURSE1_WEEK1_H_
 #define INCLUDE_DIR_COURSE1_WEEK1_H_
 
-static void print_file_name();
+void print_file_name();
 
 
 #endif /* INCLUDE_DIR_COURSE1_WEEK1_H_ */
