@@ -5,12 +5,11 @@
  *      Author: vsiddhabhakt
  */
 
-#include <stdio.h>
-#include <stdlib.h>
+
+#include "common_main.h"
 
 int main() {
-	printf("Hello World\n");
+	printf("Yo\n");
+	print_file_name();
 	return 0;
 }
-
-
