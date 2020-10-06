@@ -1,0 +1,60 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BEGIN	1_binary_search/binary_search.cpp	19;"	d	file:
+BEGIN	1_binary_search/binary_search.cpp	29;"	d	file:
+BOUND	1_binary_search/binary_search.cpp	76;"	d	file:
+CALL	1_binary_search/binary_search.cpp	10;"	d	file:
+CALL	1_binary_search/binary_search.cpp	26;"	d	file:
+CC	Makefile	/^CC=g++$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-pipe -O2 -std=c++14$/;"	m
+DEPS	Makefile	/^DEPS = $/;"	m
+END	1_binary_search/binary_search.cpp	20;"	d	file:
+END	1_binary_search/binary_search.cpp	30;"	d	file:
+EXP	1_binary_search/binary_search.cpp	77;"	d	file:
+FOREACH	1_binary_search/binary_search.cpp	13;"	d	file:
+FOREACH	1_binary_search/binary_search.cpp	28;"	d	file:
+INC	Makefile	/^INC=-I\/home\/heaven\/code\/algorithms_specialization\/course1_algorithmic_toolbox\/assignment_questions\/$/;"	m
+INCLUDE_COMPUTE_TIME_H_	compute_time.h	2;"	d
+LDFLAGS	Makefile	/^LDFLAGS=-lm$/;"	m
+OBJ1	Makefile	/^OBJ1 = 1_binary_search\/binary_search.o compute_time.o$/;"	m
+OBJ2	Makefile	/^OBJ2 = 2_majority_element\/majority_element.o compute_time.o$/;"	m
+OBJ3	Makefile	/^OBJ3 = 3_improving_quicksort\/sorting.o compute_time.o$/;"	m
+OBJ4	Makefile	/^OBJ4 = 4_number_of_inversions\/inversions.o  compute_time.o$/;"	m
+OBJ5	Makefile	/^OBJ5 = 5_organizing_a_lottery\/points_and_segments.o  compute_time.o$/;"	m
+OBJ6	Makefile	/^OBJ6 = 6_closest_points\/closest.o  compute_time.o$/;"	m
+PLL	1_binary_search/binary_search.cpp	12;"	d	file:
+PLL	1_binary_search/binary_search.cpp	27;"	d	file:
+PRINT_TIME	1_binary_search/binary_search.cpp	11;"	d	file:
+TEST	1_binary_search/binary_search.cpp	5;"	d	file:
+TT	1_binary_search/binary_search.cpp	21;"	d	file:
+TT	1_binary_search/binary_search.cpp	31;"	d	file:
+__binary_search	1_binary_search/binary_search.cpp	/^int __binary_search(const int *a, int l, int r, int x) {$/;"	f
+best_time	1_binary_search/binary_search.cpp	/^    double worst_time, best_time;$/;"	v
+binary_search	1_binary_search/binary_search.cpp	/^int binary_search(const int *a, int n, int x) {$/;"	f
+compare	1_binary_search/binary_search.cpp	/^int compare(const void *el1, const void *el2) {$/;"	f
+end	compute_time.c	/^clock_t start, end;$/;"	v
+fast_count_segments	5_organizing_a_lottery/points_and_segments.cpp	/^vector<int> fast_count_segments(vector<int> starts, vector<int> ends, vector<int> points) {$/;"	f
+get_majority_element	2_majority_element/majority_element.cpp	/^int get_majority_element(vector<int> &a, int left, int right) {$/;"	f
+get_number_of_inversions	4_number_of_inversions/inversions.cpp	/^long long get_number_of_inversions(vector<int> &a, vector<int> &b, size_t left, size_t right) {$/;"	f
+linear_search	1_binary_search/binary_search.cpp	/^int linear_search(const int *a, int n, int x) {$/;"	f
+main	1_binary_search/binary_search.cpp	/^int main() {$/;"	f
+main	2_majority_element/majority_element.cpp	/^int main() {$/;"	f
+main	3_improving_quicksort/sorting.cpp	/^int main() {$/;"	f
+main	4_number_of_inversions/inversions.cpp	/^int main() {$/;"	f
+main	5_organizing_a_lottery/points_and_segments.cpp	/^int main() {$/;"	f
+main	6_closest_points/closest.cpp	/^int main() {$/;"	f
+minimal_distance	6_closest_points/closest.cpp	/^double minimal_distance(vector<int> x, vector<int> y) {$/;"	f
+naive_count_segments	5_organizing_a_lottery/points_and_segments.cpp	/^vector<int> naive_count_segments(vector<int> starts, vector<int> ends, vector<int> points) {$/;"	f
+partition2	3_improving_quicksort/sorting.cpp	/^int partition2(vector<int> &a, int l, int r) {$/;"	f
+print_time	compute_time.c	/^void print_time(double *time1, double *time2) {$/;"	f
+randomized_quick_sort	3_improving_quicksort/sorting.cpp	/^void randomized_quick_sort(vector<int> &a, int l, int r) {$/;"	f
+run_tests	1_binary_search/binary_search.cpp	/^void run_tests() {$/;"	f
+start	compute_time.c	/^clock_t start, end;$/;"	v
+time_begin	compute_time.c	/^void time_begin() {$/;"	f
+time_end	compute_time.c	/^void time_end() {$/;"	f
+time_taken	compute_time.c	/^double time_taken() {$/;"	f
+worst_time	1_binary_search/binary_search.cpp	/^    double worst_time, best_time;$/;"	v
